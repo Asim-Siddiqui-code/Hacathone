@@ -1,0 +1,399 @@
+body {
+    font-family: "Space Grotesk";
+}
+
+/* header */
+.logo img {
+    width: 150px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #191A23;
+}
+
+#header-btn {
+    border: 0.5px solid #191A23;
+    width: 200px;
+    height: 100px;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* hero-section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.left-section h1 {
+    font-size: 60px;
+}
+
+.left-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.right-section img {
+    width: 500px;
+    height: 450px;
+}
+
+.hero-btn {
+
+    width: 150px;
+    height: 60px;
+    background-color: #191A23;
+    padding: 12px 24px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.companies-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-logo img {
+    width: 100px;
+}
+
+/* main-section */
+.main {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main h3 {
+    display: inline-block;
+    font-weight: bolder;
+    background-color: #B9FF66;
+}
+
+.main p {
+    margin-top: 10px;
+}
+
+/* main-centre */
+.main-centre {
+    margin-top: 50px;
+    width: 530px;
+    height: 250px;
+    border: 0.5px solid black;
+    border-radius: 28px;
+    border-bottom: 4px solid black;
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+
+}
+
+.box-1 h1 {
+    font-size: 27px;
+    background-color: #B9FF66;
+}
+
+.box-1 img {
+    width: 30px;
+    margin-top: 60px;
+    display: inline;
+    height: 30px;
+}
+
+.box-2 img {
+    width: 150px;
+    height: 150px;
+}
+
+.box-1 p {
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* feature */
+.feature {
+    margin-top: 50px;
+    width: 100%;
+    height: 180px;
+    border-radius: 28px;
+    background-color: #B9FF66;
+    border: 0.5px solid black;
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+span {
+    font-size: 25px;
+}
+
+.icon img {
+    width: 50px;
+}
+
+strong {
+    color: #B9FF66;
+}
+
+.heading p {
+    margin-bottom: 40px;
+}
+
+/* another feature */
+.another-feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.another-feature {
+    width: 100%;
+    border-radius: 28px;
+    margin-top: 30px;
+    background-color: #F3F3F3;
+    border: 0.5px solid black;
+    border-bottom: 4px solid black;
+    padding: 15px 25px;
+}
+
+.icon img {
+    width: 50px;
+}
+
+/* last-section */
+.last-section {
+    margin-top: 60px;
+    width: 100%;
+    height: 773px;
+    background-color: #F3F3F3;
+    border-radius: 30px;
+}
+
+.last-section {
+    align-items: center;
+    padding-left: 60px;
+    display: flex;
+}
+
+.last-section .col-5 {
+    margin-top: 60px;
+    width: 556px;
+    height: 663px;
+}
+
+.sidepic img {
+    width: 649px;
+    height: 648px;
+    position: absolute;
+    top: 144rem;
+    left: 54.5rem;
+}
+
+#Name {
+    width: 556px;
+    height: 59px;
+    padding: 18px 30px;
+    margin: auto;
+    border-radius: 14px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.text-name {
+    margin-top: 50px;
+}
+
+#Message {
+    width: 556px;
+    height: 190px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.last-btn {
+    width: 556px;
+    height: 59px;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+/* footer */
+.footer-bg {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0px 40px;
+}
+
+.footer-bg {
+    width: 100%;
+    height: 514px;
+    background: #191A23;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu li a {
+    color: #F3F3F3;
+    margin-left: 20px;
+}
+
+.footer-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.footer-heading {
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 50px;
+    background: #B9FF66;
+    display: inline-block;
+}
+
+.footer-logo p {
+    margin-top: 40px;
+    color: #F3F3F3;
+
+}
+
+.footer-box {
+    width: 634px;
+    height: 184px;
+    background-color: #292A32;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#footer-Email {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 20px;
+
+}
+
+/* footer last part */
+.horizontal-line {
+    color: #F3F3F3;
+    position: relative;
+    top: 460px;
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-desc {
+
+    position: relative;
+    top: 500px;
+    left: 140px;
+    color: #F3F3F3;
+}
+
+.footer-desc span {
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.footer-box {
+    width: 634px;
+    height: 184px;
+    background: #292A32;
+    border-radius: 14px;
+    padding: 58px 40px;
+    gap: 20px;
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+
+#footer-box-email {
+    width: 285px;
+    height: 67px;
+    border-radius: 14px;
+    border: 1px solid #F3F3F3;
+    padding: 22px 35px;
+    background-color: #292A32;
+}
+
+#footer-btn {
+    width: 285px;
+    height: 67px;
+    border-radius: 14px;
+    border: 1px solid #F3F3F3;
+    background-color: #B9FF66;
+    font-weight: 900;
+}
+
+.container {
+    overflow: hidden;
+}
+
+#Hamburger-for-mobile {
+    display: none;
+}
+
+/* Media quiries */
+@media screen and (max-width:431px) {
+    #Hamburger-for-mobile {
+        display: block;
+    }
+
+    .logo {
+        position: sticky;
+        top: 3px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .sidepic {
+        display: none;
+    }
+
+    .left-section h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
